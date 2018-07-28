@@ -447,29 +447,41 @@ input.footEmail{
 
  }
 
- /* .blogContent{
-     position: relative;
- } */
+.background{
+    background:#c6c4c433;
+    position: relative;   
+}
+
+ .blogContent{
+    width: 70%;
+    margin: 0 auto;
+    top:-50px;
+    background: white;
+    /* border: 1px solid red; */
+ }
 
  .blogArticle{
-    border:1px solid white;
+    border:1px solid white;);
     position: relative;
     background-color: white;
     top:-50px;
+    margin: 0px;
+    /* width: 100%; */
+
  }
 
  .blogArticle h2{
      font-size: 3rem;
      text-align: center;
-     width:50%;
+     width:60%;
      margin: 0 auto;
      margin-top: 50px;
  }
 
  .blogContentNav{
-     width: 50%;
+     width: 70%;
      margin: 40px auto;
-     padding-left: 50px;
+     padding-left: 90px;
      /* border:1px solid green; */
  }
 
@@ -526,6 +538,8 @@ h5{
     float: left;
 }
 
+
+
 .blogInfo{
     width: 13.3%;
     float: left;
@@ -548,8 +562,8 @@ h5{
 }
 
 .blog p{
-    font-size: 1.3rem;
-    line-height: 1.3;
+    font-size: 1.2rem;
+    line-height: 1.7;
     color: grey;
     font-weight: 500;
 }
@@ -584,10 +598,11 @@ h5{
     width: 97%;
 } */
 
-.relatedPost h2{
-    font-size: 3rem;
+.relatedPost h2,.comments h2{
+    font-size: 2.5rem;
     padding-bottom: 20px;
     border-bottom: 2px solid grey;
+    margin-left: 10px;
 }
 
 .itemContainer{
@@ -595,8 +610,10 @@ h5{
 }
 
 .itemBlog {
-    margin-right: 20px;
-    width:calc(33% - 20px);
+    /* margin-right: 20px;
+    width:calc(33% - 20px); */
+    margin: 0px 15px;
+    width: calc(33% - 30px);
     float: left;
     border-bottom: 2px solid lightgrey;
 }
@@ -615,7 +632,7 @@ h5{
     padding: 10px;
 }
 .itemInfo p, .itemInfo a{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:grey;
 }
 
@@ -631,4 +648,49 @@ h5{
     text-decoration: none;
     /* color:grey;
     font-size: 1.5 */
+}
+
+.comments{
+    /* border:1px solid green; */
+    margin-top: 40px;
+    padding: 0px 10px;
+
+    
+}
+/* COMMENTS SECTIONS */
+
+.commImg > img{
+    float: left;
+    width: 10%;
+    padding: 20px;
+    padding-left: 0;
+
+}
+
+.commImg p{
+    float: left;
+    width: 90%;
+    background:#ececec;
+    margin-top: 20px;
+    padding-top: 20px;  
+    padding-left: 20px; 
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    color:grey;
+    line-height: 2.3rem;
+
+}
+
+.bold{
+    color: black;
+    margin: 3px 0px;
+
+}
+
+.blue{
+    color: aqua;
+}
+
+.small{
+    font-size: 1rem;
 }
