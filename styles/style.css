@@ -450,6 +450,7 @@ input.footEmail{
 .background{
     background:#c6c4c433;
     position: relative;   
+    padding-bottom: 120px;
 }
 
  .blogContent{
@@ -461,13 +462,12 @@ input.footEmail{
  }
 
  .blogArticle{
-    border:1px solid white;);
+    border:1px solid white;
     position: relative;
     background-color: white;
     top:-50px;
     margin: 0px;
     /* width: 100%; */
-
  }
 
  .blogArticle h2{
@@ -598,11 +598,11 @@ h5{
     width: 97%;
 } */
 
-.relatedPost h2,.comments h2{
+.relatedPost h2,.comments h2,.contactInfo h2{
     font-size: 2.5rem;
     padding-bottom: 20px;
     border-bottom: 2px solid grey;
-    margin-left: 10px;
+    margin: 10px;
 }
 
 .itemContainer{
@@ -693,4 +693,154 @@ h5{
 
 .small{
     font-size: 1rem;
+}
+
+/*-----------------BLOG FORM HERE----------------------*/
+
+.blogForm{
+    padding: 0px 20px;
+    padding-bottom: 60px;
+    /* border: 1px solid red; */
+}
+
+.inp{
+    margin: 20px 5px;
+    width: calc(33% - 10px);
+    float: left;
+    border:none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.textField{
+    margin:8px;
+    margin-left: 0px;
+    padding: 10px;
+    padding-right:5px;
+    padding-left: 5px;
+    padding-bottom: 100px;
+    width: calc(100% - 16px);
+    border:none;
+    border-bottom: 1px solid grey;
+}
+
+input.inp::placeholder, input.textField::placeholder{
+    color:grey;
+    font-size: 1.2rem;
+}
+
+/* input.inp::placeholder, input.textField::placeholder:hover{
+    color: black;
+} */
+
+.blogButton{
+    margin: 20px 0px;
+    margin-top: 50px;
+    background: #6fb619;
+    border: none;
+    padding: 10px 30px;
+    padding-top: 15px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*------------CONTACT PAGE-------------- */
+.contactHero{
+    clear: both;
+    height: 60vh;
+    background-image: url(../assets/contact-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contactInfo h2{
+    border: none;
+    padding-bottom: 0px;
+    font-size: 3.4rem;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
+.contactInfo p{
+    margin: 20px ;
+    width:calc(50% - 20px);
+    font-size: 1.2rem;
+    color: grey;
+    line-height: 1.7;
+}
+
+
+.contactContainer{
+    /* border: 1px solid red; */
+    margin: 20px;
+    float: left;
+    /* padding-top: 30px; */
+    /* width: calc(80% - 40px);
+    padding-left: 80px;
+    margin: 0 auto; */
+
+}
+
+.conBox{
+    margin: 10px;
+    width:calc(33% - 20px);
+    float: left;
+    /* border: 1px solid green; */
+    padding: 15px;
+    padding-bottom: 80px;
+
+}
+
+.conBox i{
+    font-size: 3rem;
+    margin: 5px;
+}
+
+.conBox h4{
+    margin: 5px;
+    font-size: 1.4rem;
+}
+
+
+.conBox p{
+    font-size: 1.3rem;
+    color: grey;
+    margin: 5px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.conBoxTwo{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.contactInfo2{
+    margin-bottom: 100px;
+}
+
+form{
+    clear: both;
+}
+
+.contactBanner{
+    background-image: url(../assets/contact-2.jpeg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contactButton{
+    margin: 40px 0px;
+    padding: 0px 5px 10px 5px;
+    border: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 1px solid black;
 }
