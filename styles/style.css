@@ -814,7 +814,7 @@ input.textField::placeholder:hover{
     margin: 20px ;
     width:calc(50% - 20px);
     font-size: 1.2rem;
-    color: grey;
+    color: #999999;
     line-height: 1.7;
 }
 
@@ -853,20 +853,24 @@ input.textField::placeholder:hover{
 
 .conBox p{
     font-size: 1.3rem;
-    color: grey;
+    color:#999999;
     margin: 5px;
     line-height: 1.7;
     margin-top: 10px;
 }
 
 .conBoxTwo{
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    border-left: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
 }
 
+.contactInfo{
+    clear: both;
+}
 .contactInfo2{
     margin-bottom: 100px;
 }
+
 
 form{
     clear: both;
@@ -884,10 +888,12 @@ form{
     margin: 40px 0px;
     padding: 0px 5px 10px 5px;
     border: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     background-color: white;
     font-weight: 600;
     letter-spacing: 2px;
     border-bottom: 1px solid black;
 }
+
+
