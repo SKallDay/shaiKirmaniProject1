@@ -475,7 +475,7 @@ input.footEmail{
  }
 
 .background{
-    background:#c6c4c433;
+    background:#eeeeee;
     position: relative;   
     padding-bottom: 120px;
 }
@@ -533,14 +533,14 @@ input.footEmail{
 
 .authInfo{
     margin: 0 auto;
-    width:97%;
-    border-bottom:1px solid grey;
+    width:95%;
+    border-bottom:1px solid #ececec;
     padding-bottom: 20px;
 }
 .authInfo p{
     margin-top: 5px;
     font-size: 1.2rem;
-    color: grey;
+    color: #999999;
 }
 
 .name{
@@ -579,7 +579,7 @@ h5{
 .blog{
     /* border:1px solid red; */
     margin: 0 auto;
-    width:97%;
+    width:95%;
     margin-top: -25px;
     
 }
@@ -590,8 +590,8 @@ h5{
 
 .blog p{
     font-size: 1.2rem;
-    line-height: 1.7;
-    color: grey;
+    line-height: 1.8;
+    color: #999999;
     font-weight: 500;
 }
 
@@ -616,13 +616,13 @@ h5{
 }
 
 .blogNav li a:hover{
-    color: aqua;
+    color: #00ccff;
 }
 
 /* ---------RELATED POST - BLOG PAGE---------  */
 
 /* .relatedPost{
-    width: 97%;
+    width: 95%;
 } */
 
 .relatedPost h2,.comments h2,.contactInfo h2{
@@ -630,6 +630,10 @@ h5{
     padding-bottom: 20px;
     border-bottom: 2px solid #ececec;
     margin: 10px;
+}
+
+.relatedPost h2{
+    margin-left: 20px;
 }
 
 .itemContainer{
@@ -690,18 +694,19 @@ h5{
     float: left;
     width: 10%;
     padding: 20px;
-    padding-left: 0;
+    /* padding-left: 0; */
 
 }
 
 .commImg p{
     float: left;
-    width: 90%;
+    width: 89%;
     /* position: relative; */
-    background:#ececec;
+    background:#f6f6f6;
     margin-top: 20px;
     padding-top: 20px;  
     padding-left: 20px; 
+    padding-right: 20px;
     padding-bottom: 10px;
     font-size: 1.3rem;
     color:grey;
@@ -778,7 +783,7 @@ input.textField::placeholder:hover{
 .blogButton{
     margin: 20px 0px;
     margin-top: 50px;
-    background: #6fb619;
+    background: #84a016;
     border: none;
     padding: 10px 30px;
     padding-top: 15px;
