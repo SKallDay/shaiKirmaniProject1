@@ -69,12 +69,27 @@ h1{
     color: black;
 }
 
+.shopping{
+    position: relative;
+}
+
+.shoppingItem{
+    position: absolute;
+    background:#a4f1dc;
+    border-radius: 50%;
+    top:50px;
+    right:235px;
+    padding:2px 4px;
+    font-size: .9rem;
+
+}
+
 .HeadNav1 li a:hover{
     color: grey;
 }
 
 
-/* INDEX HERO */
+/* -----------INDEX HERO---------------- */
 .heroIndex{
     clear: both;
     background:url(../assets/home-1.jpeg);
@@ -83,11 +98,11 @@ h1{
     background-position: center;
 }
 
-/* INDEX ABOUT SECTION */
+/*------------INDEX ABOUT SECTION------------ */
 
 .about{
     height: 100vh;
-    background:#e1e9e8;;
+    background:#ededed;
     padding-top: 7%;
     padding-bottom: 60%;
 }
@@ -96,7 +111,7 @@ h1{
     margin: 0;
     font-size:1.1rem;
     text-transform: uppercase;
-    color:grey;
+    color:#999999;
     letter-spacing: 10px;
     text-align: center;
     padding-top:80px;
@@ -142,17 +157,18 @@ hr{
 }
 
 .aboutInfo p{
-    font-size: 1.5rem;
-    color: grey;
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 2;
     font-weight: 400;
 }
 
-.name{
+.name1{
     color: black;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-/* SECTION TWO */
+/* --------SECTION TWO----------INDEX */
 .sectionTwoInfo{
     width: 65%;
     float: left;
@@ -162,7 +178,7 @@ hr{
     width: 70%;
     margin-top:40px;
     float:right;
-    margin-right: 44px;
+    margin-right: 120px;
     padding-top:5%;
 }
 
@@ -179,7 +195,7 @@ hr{
     float: left;
     width: 15%;
     padding-top:14px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     /* padding-left: 5px; */
 }
 .box{
@@ -192,7 +208,7 @@ hr{
 }
 
 .box p{
-    color: grey;
+    color:#999999;
     font-size: 1.2rem;
     line-height: 1.8;
     
@@ -202,7 +218,7 @@ hr{
     width: 35%;
     float: left;
 }
-/* SECTION THREE */
+/* ----------SECTION THREE---------- INDEX */
 .testContain{
     background: url(../assets/backgroundIndex.png);
 }
@@ -219,8 +235,8 @@ hr{
 
 .testP{
     text-transform: uppercase;
-    font-size: 1.4rem;
-    color: grey;
+    font-size: 1.1rem;
+    color: #999999;
     letter-spacing: 5px;    
     text-align: center;
 }
@@ -234,7 +250,8 @@ hr{
 .sectionThreeInfo blockquote{
     font-size: 1.7rem;
     font-style: italic;
-    color: grey;
+    color: #333333;
+    line-height: 1.7;
     
 }
 
@@ -245,8 +262,9 @@ hr{
 
 .sectionThreeInfo p{
     color: grey;    
-    font-size: 1.5rem;
-    margin-top: 35px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 .left{
@@ -266,7 +284,7 @@ hr{
     
 }
 
-/* GALLERY */
+/* --------GALLERY---------INDEX----------- */
   
 .sectionThreeGallery{
     width: 80%;
@@ -288,7 +306,7 @@ hr{
     width: calc(33.3% - 10px);
     padding: 5px;
 }
-/* SECTION FOUR HERE */
+/*--------------- SECTION FOUR HERE --------------*/
 .sectionFourImg{
     width: 58%;
     float: left;
@@ -301,7 +319,7 @@ hr{
     padding-left: 90px;
     padding-right: 100px;
     /* border:1px solid red; */
-    padding-bottom: 180px;
+    padding-bottom: 160px;
     text-align: left;
 }
 .sectionFourInfo h3{
@@ -310,6 +328,7 @@ hr{
 }
 .sectionFourInfo p{
     text-align: left;
+    /* color: #cccccc; */
 }
 
 .honolulu,.phone{
@@ -320,24 +339,32 @@ hr{
 }
 .bold{
     color: black;
+    margin-top: -21px;
+}
+
+.hawaii{
+    color: #cccccc;
 }
 
 .sectionFourInfo :nth-child(4),.sectionFourInfo :nth-child(5),.sectionFourInfo :nth-child(6){
     font-size: 1.3rem;
     color: grey;
-    margin-bottom: 30px;
-    padding-right: 80px;
+    margin-bottom: 40px;
+    padding-right: 105px;
 }
 .mailFour{
     font-size: 1.5rem;
 }
 .phone{
-    font-size: 4rem;
-    margin: 0;
-    margin-top: -20px;
+    font-size: 3rem;
+    /* margin: 0;
+    margin-top: -20px; */
 }
 
-/* FOOTER STYLES */
+.bold.phone{
+    margin-top: -21px;
+}
+/* -------FOOTER STYLES -----------*/
 
 footer{
     background-color:#232121;
@@ -402,7 +429,7 @@ input.footEmail{
     background-position: right;
 }
 
-/* SUBFOOTER */
+/* -------SUBFOOTER------- */
 .subfoot{
     border-top: 1px solid grey;
 }
@@ -419,13 +446,13 @@ input.footEmail{
 
 .socialNav{
     float: left;
-    width: 48%;
+    width: 50%;
     text-align: right;
 }
 
 .socialNav li{
     list-style: none;
-    display: inline;
+    display: inline-block;
     margin: 0px 10px;
 
 }
@@ -592,7 +619,7 @@ h5{
     color: aqua;
 }
 
-/* RELATED POST - BLOG PAGE  */
+/* ---------RELATED POST - BLOG PAGE---------  */
 
 /* .relatedPost{
     width: 97%;
@@ -601,7 +628,7 @@ h5{
 .relatedPost h2,.comments h2,.contactInfo h2{
     font-size: 2.5rem;
     padding-bottom: 20px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #ececec;
     margin: 10px;
 }
 
@@ -657,7 +684,7 @@ h5{
 
     
 }
-/* COMMENTS SECTIONS */
+/* ---------COMMENTS SECTIONS------------ */
 
 .commImg > img{
     float: left;
@@ -670,6 +697,7 @@ h5{
 .commImg p{
     float: left;
     width: 90%;
+    /* position: relative; */
     background:#ececec;
     margin-top: 20px;
     padding-top: 20px;  
@@ -680,6 +708,16 @@ h5{
     line-height: 2.3rem;
 
 }
+
+/* .commImg p::before{
+    position: absolute;
+    top: 16px;
+    left: -40px;
+    bottom: auto;
+    border-width: 15px 40px 0 0;
+    border-color: transparent #075698;
+    border: 1px solid red;
+} */
 
 .bold{
     color: black;
@@ -700,6 +738,7 @@ h5{
 .blogForm{
     padding: 0px 20px;
     padding-bottom: 60px;
+    margin-top: 60px;
     /* border: 1px solid red; */
 }
 
@@ -708,7 +747,7 @@ h5{
     width: calc(33% - 10px);
     float: left;
     border:none;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid #ececec;
     padding-bottom: 10px;
 }
 
@@ -721,7 +760,7 @@ h5{
     padding-bottom: 100px;
     width: calc(100% - 16px);
     border:none;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid #ececec;
 }
 
 input.inp::placeholder, input.textField::placeholder{
@@ -729,9 +768,12 @@ input.inp::placeholder, input.textField::placeholder{
     font-size: 1.2rem;
 }
 
-/* input.inp::placeholder, input.textField::placeholder:hover{
+input.inp::placeholder:hover{
     color: black;
-} */
+}
+input.textField::placeholder:hover{
+    color: black;
+}
 
 .blogButton{
     margin: 20px 0px;
