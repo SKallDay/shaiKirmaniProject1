@@ -707,7 +707,7 @@ h5{
 
 .commImg p{
     float: left;
-    width: 85%;
+    width: 87%;
     position: relative;
     background:#f6f6f6;
     margin-top: 20px;
@@ -727,11 +727,11 @@ h5{
     content: ''; 
     position: absolute; 
     left: 0; 
-    top: 2%; 
+    top: -10%; 
     width: 0; 
     height: 0; 
     border: 29px solid transparent; 
-    border-width: 10px 50px 28px 0;
+    border-width: 5px 30px 10px 0;
     border-right-color: #F2F2F4; 
     border-left: 0; 
     margin-top: 19px; 
@@ -845,8 +845,9 @@ input.textField::placeholder:hover{
 
 .contactContainer{
     /* border: 1px solid red; */
-    margin: 20px;
+    margin: 20px 50px;
     float: left;
+    padding: 0px 30px;
     /* padding-top: 30px; */
     /* width: calc(80% - 40px);
     padding-left: 80px;
@@ -860,7 +861,8 @@ input.textField::placeholder:hover{
     float: left;
     /* border: 1px solid green; */
     padding: 15px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 
 }
 
@@ -879,7 +881,7 @@ input.textField::placeholder:hover{
     font-size: 1.3rem;
     color:#999999;
     margin: 5px;
-    line-height: 1.7;
+    line-height: 1.2;
     margin-top: 10px;
 }
 
@@ -895,6 +897,10 @@ input.textField::placeholder:hover{
     margin-bottom: 100px;
 }
 
+.contactSection .blogForm{
+    padding: 0;
+    width: 100%;
+}
 
 form{
     clear: both;
