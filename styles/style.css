@@ -129,9 +129,10 @@ hr{
 
 }
 .aboutImgs{
-    margin: 15px;
-    width: calc(40% - 30px);
+    margin: 60px;
+    width: calc(40% - 60px);
     float: left;
+    margin-right: 0;
     /* position: relative; */
 }
 
@@ -140,15 +141,16 @@ hr{
 }
 .aboutImgs :last-child{
     position: absolute;
-    bottom: -99px;
-    left: -140px;
+    bottom: -80px;
+    left: -80px;
 }
 
 .aboutInfo{
     margin: 20px;
-    width: calc(60% - 40px);
+    width: calc(55% - 40px);
     float: left;
-    padding: 20px;
+    padding: 35px;
+    margin-left: 0;
 }
 
 .aboutInfo h3{
@@ -174,10 +176,11 @@ hr{
     padding-bottom: 0;
 }
 .innerContain{
+    margin: 0 auto;
     width: 70%;
     margin-top:40px;
     float:right;
-    margin-right: 120px;
+    margin-right: 80px;
     padding-top:5%;
 }
 
