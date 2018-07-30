@@ -51,15 +51,14 @@ h1{
 
 .HeadNav1{
     float: left;
-    display: inline;
+    display: inline-block;
     width: 33%;
-    margin: 40px 0px;
-    /* font-family: 'Poppins', sans-serif; */
+    margin: 40px 0px;    /* font-family: 'Poppins', sans-serif; */
 
 }
 .HeadNav1 li{
     list-style: none;
-    display: inline;
+    display: inline-block;
     font-size:1.4rem;
     margin: 0 20px;
 }
@@ -533,7 +532,8 @@ input.footEmail{
 
 .authInfo{
     margin: 0 auto;
-    width:95%;
+    /* width:95%; */
+    width: 90%;
     border-bottom:1px solid #ececec;
     padding-bottom: 20px;
 }
@@ -579,7 +579,7 @@ h5{
 .blog{
     /* border:1px solid red; */
     margin: 0 auto;
-    width:95%;
+    width:90%;
     margin-top: -25px;
     
 }
@@ -621,9 +621,10 @@ h5{
 
 /* ---------RELATED POST - BLOG PAGE---------  */
 
-/* .relatedPost{
+.relatedPost{
+    margin: 0 auto;
     width: 95%;
-} */
+}
 
 .relatedPost h2,.comments h2,.contactInfo h2{
     font-size: 2.5rem;
@@ -638,21 +639,22 @@ h5{
 
 .itemContainer{
    margin-top: 60px;
+
 }
 
 .itemBlog {
-    /* margin-right: 20px;
-    width:calc(33% - 20px); */
+    /* margin-right: 20px; */
+    width:calc((100% / 3) - 30px);
     margin: 0px 15px;
-    width: calc(33% - 30px);
+    /* width: calc(33% - 30px); */
     float: left;
     border-bottom: 2px solid lightgrey;
 }
 
-.last{ 
+/* .last{ 
     margin-right: 0;
     margin-left: 20px;
-}
+} */
 
 
 .itemBlog:hover{
@@ -682,7 +684,8 @@ h5{
 }
 
 .comments{
-    /* border:1px solid green; */
+    margin: 0  auto;
+    width: 95%;
     margin-top: 40px;
     padding: 0px 10px;
 
@@ -700,10 +703,11 @@ h5{
 
 .commImg p{
     float: left;
-    width: 89%;
-    /* position: relative; */
+    width: 85%;
+    position: relative;
     background:#f6f6f6;
     margin-top: 20px;
+    margin-left: 20px;
     padding-top: 20px;  
     padding-left: 20px; 
     padding-right: 20px;
@@ -714,15 +718,25 @@ h5{
 
 }
 
-/* .commImg p::before{
+.commImg p::before{
     position: absolute;
-    top: 16px;
-    left: -40px;
-    bottom: auto;
-    border-width: 15px 40px 0 0;
-    border-color: transparent #075698;
-    border: 1px solid red;
-} */
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    top: 2%; 
+    width: 0; 
+    height: 0; 
+    border: 29px solid transparent; 
+    border-width: 10px 50px 28px 0;
+    border-right-color: #F2F2F4; 
+    border-left: 0; 
+    margin-top: 19px; 
+    margin-left: -29px; 
+    float: left;
+    z-index: 10;
+    
+  
+}
 
 .bold{
     color: black;
@@ -741,6 +755,8 @@ h5{
 /*-----------------BLOG FORM HERE----------------------*/
 
 .blogForm{
+    margin: 0 auto;
+    width: 95%;
     padding: 0px 20px;
     padding-bottom: 60px;
     margin-top: 60px;
@@ -749,7 +765,7 @@ h5{
 
 .inp{
     margin: 20px 5px;
-    width: calc(33% - 10px);
+    width:calc((100% / 3) - 10px);;
     float: left;
     border:none;
     border-bottom: 2px solid #ececec;
@@ -773,9 +789,13 @@ input.inp::placeholder, input.textField::placeholder{
     font-size: 1.2rem;
 }
 
-input.inp::placeholder:hover{
+.blogForm input.inp:focus::placeholder{
     color: black;
 }
+.blogForm input.inp:focus{
+    border-bottom: 1px solid black;
+}
+
 input.textField::placeholder:hover{
     color: black;
 }
