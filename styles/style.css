@@ -42,7 +42,6 @@ header{
 
 h1{
     font-size:4.5rem;
-    /* display: inline; */
     width: 33%;
     float:left;
     margin: 15px auto;
@@ -51,9 +50,8 @@ h1{
 
 .HeadNav1{
     float: left;
-    /* display: inline-block; */
     width: 33%;
-    margin: 40px 0px;    /* font-family: 'Poppins', sans-serif; */
+    margin: 40px 0px;
 
 }
 .HeadNav1 li{
@@ -133,7 +131,7 @@ hr{
     width: calc(40% - 60px);
     float: left;
     margin-right: 0;
-    /* position: relative; */
+
 }
 
 .aboutImgs :first-child{
@@ -198,7 +196,7 @@ hr{
     width: 15%;
     padding-top:14px;
     font-size: 2.2rem;
-    /* padding-left: 5px; */
+
 }
 .box{
     float:left;
@@ -285,7 +283,6 @@ hr{
 /* --------GALLERY---------INDEX----------- */
   
 .sectionThreeGallery{
-    /* width: 80%; */
     width: 85%;
     text-align: center;
     margin: 0 auto;
@@ -299,7 +296,6 @@ hr{
     margin-top: 20px;
 }
 .item{
-    /* display: inline-block; */
     float: left;
     margin: 5px;  
     width: calc(33.3% - 10px);
@@ -317,7 +313,6 @@ hr{
     padding-top: 80px;
     padding-left: 90px;
     padding-right: 100px;
-    /* border:1px solid red; */
     padding-bottom: 160px;
     text-align: left;
 }
@@ -327,7 +322,6 @@ hr{
 }
 .sectionFourInfo p{
     text-align: left;
-    /* color: #cccccc; */
 }
 
 .honolulu,.phone{
@@ -356,8 +350,7 @@ hr{
 }
 .phone{
     font-size: 3rem;
-    /* margin: 0;
-    margin-top: -20px; */
+    
 }
 
 .bold.phone{
@@ -432,16 +425,14 @@ input.footEmail{
 /* -------SUBFOOTER------- */
 .subfoot{
     border-top: 1px solid #413e3e;
+    padding-top: 30px;
 }
 
 .subfoot p{
     font-size: 1.3rem;
-    /* margin: 20px;
-    margin-left: 10px; */
     width: 50%;
     text-align: left;
     float: left;
-    /* padding: 20px 50px; */
 }
 
 .socialNav{
@@ -489,7 +480,6 @@ input.footEmail{
     margin: 0 auto;
     top:-50px;
     background: white;
-    /* border: 1px solid red; */
  }
 
  .blogArticle{
@@ -498,7 +488,7 @@ input.footEmail{
     background-color: white;
     top:-50px;
     margin: 0px;
-    /* width: 100%; */
+
  }
 
  .blogArticle h2{
@@ -513,13 +503,11 @@ input.footEmail{
      width: 70%;
      margin: 40px auto;
      padding-left: 90px;
-     /* border:1px solid green; */
  }
 
  .blogContentNav li{
      list-style: none;
      display: inline;
-     /* width: 33%; */
      font-size: 1.3rem;
      color: grey;
      
@@ -537,7 +525,6 @@ input.footEmail{
 
 .authInfo{
     margin: 0 auto;
-    /* width:95%; */
     width: 90%;
     border-bottom:1px solid #ececec;
     padding-bottom: 20px;
@@ -551,7 +538,6 @@ input.footEmail{
 .name{
     float: left;
     width: 60%;
-    /* border: 1px solid red; */
 }
 
 .nameBox{
@@ -576,13 +562,11 @@ h5{
     width: 13.3%;
     float: left;
     padding-top: 10px;
-    /* padding-right: 50px; */
-    /* border: 1px solid green; */
+
 }
 
-/* BLOG SECTION */
+/*-------- BLOG SECTION -------------*/
 .blog{
-    /* border:1px solid red; */
     margin: 0 auto;
     width:90%;
     margin-top: -25px;
@@ -648,18 +632,11 @@ h5{
 }
 
 .itemBlog {
-    /* margin-right: 20px; */
     width:calc((100% / 3) - 30px);
     margin: 0px 15px;
-    /* width: calc(33% - 30px); */
     float: left;
     border-bottom: 2px solid lightgrey;
 }
-
-/* .last{ 
-    margin-right: 0;
-    margin-left: 20px;
-} */
 
 
 .itemBlog:hover{
@@ -684,8 +661,7 @@ h5{
 
 .itemInfo  a{
     text-decoration: none;
-    /* color:grey;
-    font-size: 1.5 */
+  
 }
 
 .comments{
@@ -701,8 +677,7 @@ h5{
 .commImg > img{
     float: left;
     width: 10%;
-    padding: 20px;
-    /* padding-left: 0; */
+    padding: 15px;
 
 }
 
@@ -711,7 +686,7 @@ h5{
     width: 87%;
     position: relative;
     background:#f6f6f6;
-    margin-top: 20px;
+    margin-top: 13px;
     margin-left: 20px;
     padding-top: 20px;  
     padding-left: 20px; 
@@ -765,7 +740,6 @@ h5{
     padding: 0px 20px;
     padding-bottom: 60px;
     margin-top: 60px;
-    /* border: 1px solid red; */
 }
 
 .inp{
@@ -845,14 +819,9 @@ input.textField::placeholder:hover{
 
 
 .contactContainer{
-    /* border: 1px solid red; */
     margin: 20px 50px;
     float: left;
     padding: 0px 30px;
-    /* padding-top: 30px; */
-    /* width: calc(80% - 40px);
-    padding-left: 80px;
-    margin: 0 auto; */
 
 }
 
