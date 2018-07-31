@@ -4,6 +4,8 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+.visuallyhidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
+
 /* GENERAL STYLES */
 
 html{
@@ -885,7 +887,7 @@ form{
 
 .contactButton{
     margin: 40px 0px;
-    padding: 0px 5px 10px 5px;
+    padding: 0px 0px 10px 0px;
     border: none;
     font-size: 1rem;
     text-transform: uppercase;
@@ -894,6 +896,7 @@ form{
     letter-spacing: 2px;
     border-bottom: 1px solid black;
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 
