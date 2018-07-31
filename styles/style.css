@@ -35,7 +35,7 @@ li, h6{
 }
 
 
-/* HEADER SECTION */
+/*-------------- HEADER SECTION --------------*/
 header{
    background: white;
 }
@@ -76,8 +76,8 @@ h1{
     position: absolute;
     background:#a4f1dc;
     border-radius: 50%;
-    top:50px;
-    right:235px;
+    top:49px;
+    right:237px;
     padding:2px 4px;
     font-size: .9rem;
 
@@ -269,21 +269,17 @@ hr{
     margin-bottom: 30px;
 }
 
-.left{
+.left,.right{
     float: left;
     width: 10%;
     text-align: center;
     font-size: 3rem;
-    margin-top: 250px;
+    margin-top: 300px;
 }
 
-.right{
-    float:right;
-    width: 10%;
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 250px;
-    
+.left:hover,.right:hover{
+    color: grey;
+    cursor: pointer;
 }
 
 /* --------GALLERY---------INDEX----------- */
@@ -451,6 +447,10 @@ input.footEmail{
     float: left;
     width: 50%;
     text-align: right;
+}
+
+.socialNav :last-child{
+    margin-right: 0;
 }
 
 .socialNav li{
@@ -726,7 +726,7 @@ h5{
     position: absolute;
     content: ''; 
     position: absolute; 
-    left: 0; 
+    left: 1%; 
     top: -10%; 
     width: 0; 
     height: 0; 
@@ -859,7 +859,6 @@ input.textField::placeholder:hover{
     margin: 10px;
     width:calc(33% - 20px);
     float: left;
-    /* border: 1px solid green; */
     padding: 15px;
     padding-bottom: 40px;
     padding-top: 40px;
@@ -918,12 +917,13 @@ form{
     margin: 40px 0px;
     padding: 0px 5px 10px 5px;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     background-color: white;
     font-weight: 600;
     letter-spacing: 2px;
     border-bottom: 1px solid black;
+    margin-bottom: 100px;
 }
 
 
